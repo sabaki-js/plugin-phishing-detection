@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.0.1",
+ "version": "1.0.2",
  "questions": [
   "suspicious"
  ],
@@ -18,7 +18,6 @@
   "lien",
   "verify"
  ],
- "threshold": 0,
  "modes": {
   "mini": "cross-encoder MiniLM-L6 ONNX fp32 bundled (1 forward/option, argmax) - latin scripts, model swappable via env SABAKI_PHISHING_DIR"
  },
