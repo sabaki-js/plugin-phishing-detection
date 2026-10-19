@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.1.0",
+ "version": "1.1.1",
  "questions": [
   "suspicious"
  ],
@@ -73,5 +73,35 @@
   "tr",
   "vi"
  ],
- "threshold": 0.1
+ "threshold": 0.1,
+ "aliases": {
+  "questions": {
+   "suspicious": [
+    "scam",
+    "arnaque",
+    "hameçonnage",
+    "is this suspicious",
+    "est-ce suspect",
+    "phishing"
+   ]
+  },
+  "options": {
+   "yes": [
+    "phishing",
+    "attack",
+    "malicious",
+    "suspect",
+    "scam",
+    "arnaque"
+   ],
+   "no": [
+    "legit",
+    "legitime",
+    "safe",
+    "ok",
+    "benign",
+    "ham"
+   ]
+  }
+ }
 }
