@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.0.5",
+ "version": "1.0.6",
  "questions": [
   "suspicious"
  ],
@@ -72,5 +72,6 @@
   "pt",
   "tr",
   "vi"
- ]
+ ],
+ "threshold": 0.1
 }
