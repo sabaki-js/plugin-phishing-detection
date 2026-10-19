@@ -29,7 +29,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsc --project tsconfig.json && cp src/manifest.json dist/",
+    "build": "tsc --project tsconfig.json && cp src/manifest.json src/weights.json dist/",
     "typecheck": "tsc --noEmit",
     "test": "node --test dist/test.js",
     "publish-package": "bash ./scripts/publish-package.sh"
