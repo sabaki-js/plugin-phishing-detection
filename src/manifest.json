@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.0.0",
+ "version": "1.0.1",
  "questions": [
   "suspicious"
  ],
@@ -22,5 +22,16 @@
  "modes": {
   "mini": "cross-encoder MiniLM-L6 ONNX fp32 bundled (1 forward/option, argmax) - latin scripts, model swappable via env SABAKI_PHISHING_DIR"
  },
- "notes": "Specialist phishing, latin scripts (de/en/es/fr/id/tr/vi). Held-out: de 0.97 / es 0.99 / id 1.00 / tr 1.00 / vi 0.93 / en 0.85 / fr 0.83. it/pt excluded (weak recall, documented). Accepts 'suspicious' or 'Is this suspicious?'."
+ "notes": "Specialist phishing, latin scripts (de/en/es/fr/id/tr/vi). Held-out: de 0.97 / es 0.99 / id 1.00 / tr 1.00 / vi 0.93 / en 0.85 / fr 0.83. it/pt excluded (weak recall, documented). Accepts 'suspicious' or 'Is this suspicious?'.",
+ "languages": [
+  "de",
+  "en",
+  "es",
+  "fr",
+  "id",
+  "it",
+  "pt",
+  "tr",
+  "vi"
+ ]
 }
