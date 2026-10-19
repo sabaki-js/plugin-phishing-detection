@@ -1,0 +1,85 @@
+{
+ "base": "sentence-transformers/all-MiniLM-L6-v2",
+ "format": "question [SEP] option [SEP] state, argmax(score)",
+ "report": {
+  "corpus:v2_phishing_hard_en": {
+   "n": 38,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "corpus:phishing_en_a": {
+   "n": 31,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-tr": {
+   "n": 13,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-id": {
+   "n": 24,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "corpus:phishing_fr_a": {
+   "n": 32,
+   "acc": 0.938,
+   "P": 0.937,
+   "R": 0.937,
+   "F1": 0.937
+  },
+  "gen:phishing-it": {
+   "n": 10,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-de": {
+   "n": 19,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-pt": {
+   "n": 14,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-vi": {
+   "n": 11,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "gen:phishing-es": {
+   "n": 13,
+   "acc": 1.0,
+   "P": 1.0,
+   "R": 1.0,
+   "F1": 1.0
+  },
+  "_all": {
+   "n": 205,
+   "acc": 0.99,
+   "P": 0.99,
+   "R": 0.99,
+   "F1": 0.99
+  },
+  "_srcF1": 0.994
+ },
+ "model": "sabaki-phishing-mini-latin-v1"
+}
