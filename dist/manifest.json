@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.0.4",
+ "version": "1.0.5",
  "questions": [
   "suspicious"
  ],
@@ -15,6 +15,8 @@
   "bank",
   "banka",
   "bağlantı",
+  "bloccato",
+  "bloqueada",
   "clicca",
   "cliquez",
   "collegamento",
@@ -23,6 +25,7 @@
   "conto",
   "cuenta",
   "enlace",
+  "gesperrt",
   "hameçonnage",
   "haz clic",
   "hesap",
@@ -41,6 +44,9 @@
   "segera",
   "sms",
   "sofort",
+  "sperren",
+  "suspend",
+  "suspended",
   "suspicious",
   "tautan",
   "tài khoản",

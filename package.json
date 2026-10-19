@@ -1,6 +1,6 @@
 {
   "name": "@sabaki-js/phishing-detection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "Sabaki plugin - multilingual phishing detection, latin scripts (MiniLM cross-encoder, bundled weights).",
   "repository": {
