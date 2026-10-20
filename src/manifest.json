@@ -1,7 +1,7 @@
 {
  "name": "@sabaki-js/phishing-detection",
  "domain": "phishing",
- "version": "1.1.1",
+ "version": "1.1.2",
  "questions": [
   "suspicious"
  ],
@@ -103,5 +103,8 @@
     "ham"
    ]
   }
+ },
+ "descriptions": {
+  "suspicious": "Is this message suspicious? A scam, phishing or fraud attempt by email or SMS."
  }
 }
